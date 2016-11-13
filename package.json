@@ -1,0 +1,26 @@
+{
+  "name": "rhino-identifier",
+  "description": "It's part of Rhino screen app",
+  "version": "0.0.1",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhino-screen/rhino-identifier.git"
+  },
+  "author": "Valentin DEVILLE",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rhino-screen/rhino-identifier/issues"
+  },
+  "homepage": "https://github.com/rhino-screen/rhino-identifier#readme",
+
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
