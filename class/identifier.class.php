@@ -54,7 +54,7 @@ class Identifier
     private function generate($characters, $numbers = true)
     {
 
-        $letters = range('a', 'z');
+        $letters = range('A', 'Z');
         $number = range(0, 9);
 
         shuffle($letters);
@@ -68,8 +68,6 @@ class Identifier
         shuffle($token);
 
         $token = implode(array_slice($token, 0, $characters));
-
-        $token = strtoupper($token);
 
         $this->token = $token;
 
